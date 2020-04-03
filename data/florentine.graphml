@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="Acciaiuoli"/>
+<node id="Medici"/>
+<node id="Castellani"/>
+<node id="Peruzzi"/>
+<node id="Strozzi"/>
+<node id="Barbadori"/>
+<node id="Ridolfi"/>
+<node id="Tornabuoni"/>
+<node id="Albizzi"/>
+<node id="Salviati"/>
+<node id="Pazzi"/>
+<node id="Bischeri"/>
+<node id="Guadagni"/>
+<node id="Ginori"/>
+<node id="Lamberteschi"/>
+<edge source="Acciaiuoli" target="Medici"/>
+<edge source="Medici" target="Barbadori"/>
+<edge source="Medici" target="Ridolfi"/>
+<edge source="Medici" target="Tornabuoni"/>
+<edge source="Medici" target="Albizzi"/>
+<edge source="Medici" target="Salviati"/>
+<edge source="Castellani" target="Peruzzi"/>
+<edge source="Castellani" target="Strozzi"/>
+<edge source="Castellani" target="Barbadori"/>
+<edge source="Peruzzi" target="Strozzi"/>
+<edge source="Peruzzi" target="Bischeri"/>
+<edge source="Strozzi" target="Ridolfi"/>
+<edge source="Strozzi" target="Bischeri"/>
+<edge source="Ridolfi" target="Tornabuoni"/>
+<edge source="Tornabuoni" target="Guadagni"/>
+<edge source="Albizzi" target="Ginori"/>
+<edge source="Albizzi" target="Guadagni"/>
+<edge source="Salviati" target="Pazzi"/>
+<edge source="Bischeri" target="Guadagni"/>
+<edge source="Guadagni" target="Lamberteschi"/>
+</graph></graphml>
